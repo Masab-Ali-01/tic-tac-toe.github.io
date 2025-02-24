@@ -61,7 +61,8 @@ let cheakWinner = () => {
 var resetGame = document.querySelector(".reset");
 resetGame.addEventListener("click",()=>{
     boxes.forEach(e=>{
-        e.innerHTML = ""
+        e.innerHTML = "";
+        e.disabled = false;
     })
 })
 
